@@ -1,8 +1,134 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="icon" href="~/Photos/logo.png">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/homepage.css" asp-append-version="true" />
+    <title>BookWorm</title>
+</head>
+
+<section class="Welcome-Section">
+    <img class="book1" src="~/Photos/book.png" height="500px" alt="">
+    <img class="book-mobile" src="~/Photos/book.png" height="360px" alt="">
+    <div class="Text">
+        <h2>
+            <span class="blue">Read with us</span> the best books at the <span class="orange">lowest prices!</span>
+        </h2>
+        <p>
+            There is a lot of literature of various genres in our catalog. Everyone will be able to find something
+            to their <span class="orange">liking!</span>
+        </p>
+        <div class="Search-Bar">
+            <label for="site-search"></label>
+            <input id="site-search" placeholder="search">
+            <button>Search</button>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<section class="bestsellers">
+    <div class="bestsellers-text">
+        <h2>Bestsellers:</h2>
+        <a href="allbookspage.html">Check All -></a>
+    </div>
+    <div class="second">
+        <div class="Best-Books">
+            <a href=""><img class="bestbooks" src="~/Photos/will.png" alt="" height="350px"></a>
+            <h2 class="bookname">WILL</h2>
+            <h3 class="author">Will smith</h3>
+            <h3 class="price1"> 29.50$ <img class="vect" src="~/Photos/Vector.png" alt=""></h3>
+        </div>
+
+        <div class="Best-Books">
+            <a href=""><img class="bestbooks" src="~/Photos/a-little-life-book.png" alt="" height="350px"></a>
+            <h2 class="bookname">WILL</h2>
+            <h3 class="author">Will smith</h3>
+            <h3 class="price2"> 29.50$ <a><img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+        </div>
+
+        <div class="Best-Books">
+            <a href=""><img class="bestbooks" src="~/Photos/how-to-not-die-alone-book.png" alt="" height="350px"></a>
+            <h2 class="bookname">WILL</h2>
+            <h3 class="author">Will smith</h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+        </div>
+
+        <div class="Best-Books">
+            <a href=""><img class="bestbooks" src="img/The-sub.png" alt="" height="350px"></a>
+            <h2 class="bookname">WILL</h2>
+            <h3 class="author">Will smith</h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+        </div>
+
+        <div class="Best-Books">
+            <a href=""><img class="bestbooks" src="img/The-sub.png" alt="" height="350px"></a>
+            <h2 class="bookname">WILL</h2>
+            <h3 class="author">Will smith</h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+        </div>
+        <div class="Best-Books">
+            <a href=""><img class="bestbooks" src="~/Photos/how-to-not-die-alone-book.png" alt="" height="350px"></a>
+            <h2 class="bookname">WILL</h2>
+            <h3 class="author">Will smith</h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+        </div>
+
+        <div class="Best-Books">
+            <a href=""><img class="bestbooks" src="~/Photos/how-to-not-die-alone-book.png" alt="" height="350px"></a>
+            <h2 class="bookname">WILL</h2>
+            <h3 class="author">Will smith</h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+        </div>
+    </div>
+
+</section>
+
+<section class="Categories">
+    <h2>Categories :</h2>
+
+    <div class="line one">
+        <div class="Categories-links left-side">
+            <h3>Fiction</h3>
+            <div class="Categories-Anchors orange">
+                <a href="#" class="grid-item">Adventure</a>
+                <a href="#" class="grid-item">Classic</a>
+                <a href="#" class="grid-item">Crime</a>
+                <a href="#" class="grid-item">Horror</a>
+                <a href="#" class="grid-item">Romance</a>
+                <a href="#" class="grid-item">Fantasy</a>
+            </div>
+
+        </div>
+        <img src="~/Photos/fictionbook.png" alt="" height="250px">
+    </div>
+
+    <div class="line two">
+        <div class="Categories-links left-side">
+            <h3>Non Fiction</h3>
+            <div class="Categories-Anchors cyan">
+                <a href="#" class="">Adventure</a>
+                <a href="#" class="">Classic</a>
+                <a href="#" class="">Crime</a>
+                <a href="#" class="">Horror</a>
+                <a href="#" class="">Romance</a>
+            </div>
+
+        </div>
+        <img src="~/Photos/nonfictionbook.png" alt="" height="250px">
+    </div>
+
+
+</section>
