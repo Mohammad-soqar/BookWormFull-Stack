@@ -6,40 +6,107 @@
     <title>@ViewData["Title"] - BookWorm</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/BookWorm.styles.css" asp-append-version="true" />
+   
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BookWorm</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <nav class="Nav-bar">
+        <a href="stylesheet.html"><img class="logo" src="~/Photos/logo.png" width="75px" alt=""></a>
+        <ul class="nav-ul">
+            <div class="baskets">
+            <li class="nav-li"><a href="allbookspage.html">Ebook</a></li>
+            <li class="nav-li"><a href="#">Categories</a></li>
+            <li class="nav-li"><a href="#">About</a></li>
+            <li class="nav-li"><a href="#">Contact</a></li>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+        </ul>
+        <div class="baskets icons">
+            <a href="homepage.html"><img class="basketimg" src="~/Photos/ShoppingCart.png" alt="" width="35px"></a>
+            <a href="homepage.html"><img class="basketimg" src="~/Photos/Account.png" alt="" width="35px"></a>
+            <a href="homepage.html"><img class="basketimg" src="~/Photos/Save.png" alt="" width="30px"></a>
+        </div>
+
+        <!-- ------------------Mobile Navbar---------------- -->
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1 slice"></div>
+            <div class="bar2 slice"></div>
+            <div class="bar3 slice"></div>
+
+            <ul id="mobile-menu" class="mobile-menu">
+                <li class="nav-li"><a href="allbookspage.html">Ebook</a></li>
+                <li class="nav-li"><a href="#">Categories</a></li>
+                <li class="nav-li"><a href="#">About</a></li>
+                <li class="nav-li"><a href="#">Contact</a></li>
+                <div class="Mobile-baskets">
+                    <a href="homepage.html"><img class="basketimg" src="~/Photos/ShoppingCart.png" alt="" width="35px"></a>
+                    <a href="homepage.html"><img class="basketimg" src="~/Photos/Account.png" alt="" width="35px"></a>
+                    <a href="homepage.html"><img class="basketimg" src="~/Photos/Save.png" alt="" width="30px"></a>
+                </div>
+            </ul>
+
+
+        </div>
+    </nav>
+
+  
+        <main role="main" >
             @RenderBody()
         </main>
-    </div>
+    
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - BookWorm - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <footer>
+        <section class="foot">
+            <div class="worm">
+                <a href="stylesheet.html"> <img class="logo" src="~/Photos/logo.png" width="95px" alt=""> </a>
+                <p>
+                    Lorem ipsum dolor sit amet. Quo explicabo
+                    quaerat est dicta quasi et quaerat quia est
+                    mollitia dolorum non
+                </p>
+            </div>
+            <div class="links">
+                <h3>Links</h3>
+                <a href="#">services</a>
+                <a href="#">Road maps</a>
+                <a href="#">Blogs</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="explor">
+                <h3>Explore</h3>
+                <a href="#">About us</a>
+                <a href="#">Our team</a>
+                <a href="#">How it work</a>
+            </div>
+            <div class="contact">
+                <h3>contact</h3>
+                <p>support@codyle.com</p>
+                <p>+90 232 222 222 22</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/" target="_blank" class="taga">
+                        <img src="~/Photos/instagram.png"
+                             alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="taga">
+                        <img src="~/Photos/twitter.png"
+                             alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="taga">
+                        <img src="~/Photos/facebook.png"
+                             alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="taga">
+                        <img src="~/Photos/youtube.png"
+                             alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="taga">
+                        <img src="~/Photos/linked-in.png"
+                             alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <P class="rights">© All Rights Reserved. CODYLE, <a href="">Privacy Policy</a> </P>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

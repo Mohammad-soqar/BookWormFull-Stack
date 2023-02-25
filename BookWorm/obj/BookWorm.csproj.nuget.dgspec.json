@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad Ahmad\\source\\repos\\BookWorm\\BookWorm\\BookWorm.csproj": {}
+    "C:\\Users\\Mohammad Ahmad\\Desktop\\My Business\\_Codyle\\CodyleOffical\\BookWormFull\\BookWorm\\BookWorm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad Ahmad\\source\\repos\\BookWorm\\BookWorm\\BookWorm.csproj": {
+    "C:\\Users\\Mohammad Ahmad\\Desktop\\My Business\\_Codyle\\CodyleOffical\\BookWormFull\\BookWorm\\BookWorm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad Ahmad\\source\\repos\\BookWorm\\BookWorm\\BookWorm.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad Ahmad\\Desktop\\My Business\\_Codyle\\CodyleOffical\\BookWormFull\\BookWorm\\BookWorm.csproj",
         "projectName": "BookWorm",
-        "projectPath": "C:\\Users\\Mohammad Ahmad\\source\\repos\\BookWorm\\BookWorm\\BookWorm.csproj",
+        "projectPath": "C:\\Users\\Mohammad Ahmad\\Desktop\\My Business\\_Codyle\\CodyleOffical\\BookWormFull\\BookWorm\\BookWorm.csproj",
         "packagesPath": "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad Ahmad\\source\\repos\\BookWorm\\BookWorm\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad Ahmad\\Desktop\\My Business\\_Codyle\\CodyleOffical\\BookWormFull\\BookWorm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookWorm.props" />
+</Project>
