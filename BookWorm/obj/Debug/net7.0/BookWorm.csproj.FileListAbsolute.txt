@@ -284,3 +284,5 @@ C:\Users\Mohammad Ahmad\Desktop\My Business\_Codyle\CodyleOffical\BookWormFull\B
 C:\Users\Mohammad Ahmad\Desktop\My Business\_Codyle\CodyleOffical\BookWormFull\BookWorm\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Mohammad Ahmad\Desktop\My Business\_Codyle\CodyleOffical\BookWormFull\BookWorm\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Mohammad Ahmad\Desktop\My Business\_Codyle\CodyleOffical\BookWormFull\BookWorm\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Mohammad Ahmad\Desktop\My Business\_Codyle\CodyleOffical\BookWormFull\BookWorm\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Mohammad Ahmad\Desktop\My Business\_Codyle\CodyleOffical\BookWormFull\BookWorm\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll

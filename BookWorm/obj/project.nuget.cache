@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SSrzEGDUfkSTZEPakAYTaz6dfb829uubdRtZSiRHEPZTJ0cyc8LCyTSRNRQmVfYVT6CZ0SBFg2u0DWpa8N7P0A==",
+  "dgSpecHash": "f4X9JWsP61l43r5dhNxbVItbAgE1CU90S1BRAn9Ls5FG/YEyq/PjjFIUA3yzXkI5VFpbauMt8Hmum9l1RpncRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohammad Ahmad\\Desktop\\My Business\\_Codyle\\CodyleOffical\\BookWormFull\\BookWorm\\BookWorm.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.3.nupkg.sha512",
+    "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.3\\microsoft.aspnetcore.identity.ui.7.0.3.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
@@ -64,7 +65,8 @@
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
-    "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\7.0.3\\microsoft.extensions.fileproviders.embedded.7.0.3.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.3\\microsoft.extensions.identity.core.7.0.3.nupkg.sha512",
     "C:\\Users\\Mohammad Ahmad\\.nuget\\packages\\microsoft.extensions.identity.stores\\7.0.3\\microsoft.extensions.identity.stores.7.0.3.nupkg.sha512",

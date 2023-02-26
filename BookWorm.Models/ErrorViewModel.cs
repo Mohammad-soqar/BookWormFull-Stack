@@ -1,4 +1,4 @@
-namespace BookWorm.Models
+﻿namespace BookWorm.Models
 {
     public class ErrorViewModel
     {
