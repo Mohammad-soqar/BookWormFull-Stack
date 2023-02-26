@@ -47,8 +47,7 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-*.mdf
-*.ldf
+
 *_i.c
 *_p.c
 *_i.h
