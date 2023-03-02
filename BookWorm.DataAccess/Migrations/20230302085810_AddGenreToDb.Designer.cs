@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookWorm.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230226055626_AddGenreToDb")]
+    [Migration("20230302085810_AddGenreToDb")]
     partial class AddGenreToDb
     {
         /// <inheritdoc />
