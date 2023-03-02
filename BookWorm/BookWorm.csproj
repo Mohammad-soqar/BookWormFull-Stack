@@ -28,4 +28,9 @@
     <ProjectReference Include="..\BookWorm.DataAccess\BookWorm.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Customer\" />
+    <Folder Include="Areas\Admin\" />
+  </ItemGroup>
+
 </Project>
