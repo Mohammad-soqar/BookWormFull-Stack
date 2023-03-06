@@ -269,3 +269,21 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
+BookWorm.DataAccess/Migrations/20230302131235_addzfttoDb.Designer.cs
+BookWorm.DataAccess/Migrations/20230302125041_CreateDatabase2.cs
+BookWorm.DataAccess/Migrations/20230302124112_CreateDatabase.Designer.cs
+BookWorm.DataAccess/Migrations/20230302124112_CreateDatabase.cs
+BookWorm.DataAccess/Migrations/20230302125041_CreateDatabase2.Designer.cs
+BookWorm.DataAccess/Migrations/20230302131235_addzfttoDb.cs
+BookWorm/appsettings.json
+BookWorm/appsettings.json
+BookWorm/bin/Debug/net7.0/appsettings.json
+*.cache
+*.cache
+.vs/BookWorm/config/applicationhost.config
+BookWorm/bin/Debug/net7.0/appsettings.json
+*.cache
+*.cache
+BookWorm/obj/Debug/net7.0/staticwebassets.pack.json
+.vs/BookWorm/config/applicationhost.config
+BookWorm/appsettings.json
