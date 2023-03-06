@@ -311,3 +311,8 @@ BookWorm/appsettings.json
 /BookWorm/obj/Debug/net7.0/staticwebassets.development.json
 /BookWorm/obj/project.nuget.cache
 /BookWorm/obj/Debug/net7.0/BookWorm.assets.cache
+/BookWorm/obj/Debug/net7.0/BookWorm.csproj.FileListAbsolute.txt
+/BookWorm/obj/Debug/net7.0/BookWorm.GeneratedMSBuildEditorConfig.editorconfig
+/BookWorm/obj/Debug/net7.0/staticwebassets.build.json
+/BookWorm/obj/Debug/net7.0/staticwebassets.pack.json
+/BookWorm/obj/project.assets.json
