@@ -290,3 +290,5 @@ BookWorm/appsettings.json
 BookWorm/obj/project.nuget.cache
 .vs/BookWorm/config/applicationhost.config
 BookWorm/appsettings.json
+BookWorm/obj/Debug/net7.0/BookWorm.GeneratedMSBuildEditorConfig.editorconfig
+.vs/BookWorm/config/applicationhost.config
