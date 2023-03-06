@@ -287,3 +287,6 @@ BookWorm/bin/Debug/net7.0/appsettings.json
 BookWorm/obj/Debug/net7.0/staticwebassets.pack.json
 .vs/BookWorm/config/applicationhost.config
 BookWorm/appsettings.json
+BookWorm/obj/project.nuget.cache
+.vs/BookWorm/config/applicationhost.config
+BookWorm/appsettings.json
