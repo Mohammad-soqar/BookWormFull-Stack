@@ -37,7 +37,7 @@
 }
 
 .Text button {
-    background-color: #FF6A4B;
+    background-color: #43C9D6;
     border: none;
     border-radius: 2rem;
     padding: 0.5rem 1rem;
@@ -124,7 +124,8 @@
         width: 5px;
         height: 8px;
         border-radius: 12px;
-        background-color: #aaaaaa44; /* or add it to the track */
+        background-color: #aaaaaa44;
+        /* or add it to the track */
     }
 
     /* Add a thumb */
@@ -162,7 +163,7 @@
     justify-content: space-between;
     margin: 5% 0;
     ;
-    color: #FF6A4B;
+    color: #43C9D6;
 }
 
 @media only screen and (max-width: 940px) {
@@ -200,7 +201,7 @@
 
 .Categories {
     margin: 8rem 0rem 0rem 0rem;
-    background-image: url('../photos/categories-background.png');
+    background-image: url(../Photos/categories-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -291,7 +292,7 @@
         margin: 2rem 0rem 0rem 0rem;
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: repeat(2, minmax(0,1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
@@ -300,7 +301,7 @@
         margin: 2rem 0rem 0rem 0rem;
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: repeat(3, minmax(0,1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
@@ -310,5 +311,181 @@
         justify-content: space-around;
         align-items: center;
         margin: 3rem 36rem !important;
+    }
+}
+
+.Genre-text h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.carousel-item {
+    margin: 0 2.5em;
+}
+
+    .carousel-item a {
+        text-decoration: none !important;
+    }
+
+.info-left {
+    display: grid;
+    grid-gap: 10px;
+}
+
+    .info-left h3 {
+        font-size: 12pt;
+        font-weight: 800;
+        color: #3A3042;
+    }
+
+
+.authorinfo p {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #3A3042 !important;
+}
+
+.orange p {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #FF6A4B;
+}
+
+.info-right button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 940px) {
+    .carousel-Section {
+        display: flex;
+        align-items: center;
+        margin: 2em 0em;
+    }
+
+    .carousel-container {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1300px;
+        overflow: hidden;
+    }
+
+    .carousel {
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        list-style: none;
+        overflow: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+
+    .book-Cover {
+        border-radius: 16px;
+        width: 250px;
+        height: 250px;
+        display: block;
+    }
+
+    .carousel-control {
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        color: #777;
+        font-size: 30px;
+        cursor: pointer;
+        outline: none;
+        z-index: 2;
+    }
+
+    .info {
+        display: flex;
+        margin: 20px 0px;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .carousel-control {
+        display: none;
+    }
+
+
+    .Genre-text {
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem 1.5rem;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    .carousel-Section {
+        display: flex;
+        align-items: center;
+        margin: 2em 0em;
+    }
+
+    .carousel-container {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1300px;
+        overflow: hidden;
+    }
+
+    .Genre-text {
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem 8.5rem;
+        align-items: center;
+    }
+
+    .carousel {
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        list-style: none;
+        transition: transform 0.5s ease-in-out;
+    }
+
+
+    .book-Cover {
+        border-radius: 16px;
+        width: 250px;
+        height: 250px;
+        display: block;
+    }
+
+    .carousel-control {
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        color: #777;
+        font-size: 30px;
+        cursor: pointer;
+        outline: none;
+        z-index: 2;
+    }
+
+    .info {
+        display: flex;
+        margin: 20px 0px;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .carousel-control.prev {
+        left: 0;
+        margin: 1em 0em 0em 1em;
+    }
+
+    .carousel-control.next {
+        right: 0;
+        margin: 1em 1em 0em 0em;
     }
 }
