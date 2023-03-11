@@ -10,8 +10,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
  builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 
+//(ADD AFTER CONTROLLER) builder.Services.AddScoped<For Example: ICatgeoryRepository, CategoryRepository>();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
