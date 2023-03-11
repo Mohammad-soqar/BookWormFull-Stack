@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: MontserratMedium;
+    src: local(MontserratMedium),url('Assets/fonts/medium/Montserrat-Medium.ttf') format('truetype');
+}
 
 html,
 body,
@@ -139,7 +142,7 @@ table {
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'MontserratMedium' !important;
 }
 
 .Nav-bar {
@@ -158,16 +161,14 @@ body {
     border: 1px solid rebeccapurple;
  
   } */
-.nav-li {
+.nav-li a {
     display: flex;
     align-items: center;
-    color: #3A3042;
+    color: #3A3042 !important;
     margin: 0rem 1.5rem 0rem 1.5rem;
 }
 
-    .nav-li a {
-        color: #3A3042;
-    }
+
 
 
 
@@ -271,6 +272,8 @@ body {
 
 /* Mobile navbar */
 
+/* footer */
+
 footer {
     background-color: #3A3042;
     color: #FFFFFF;
@@ -280,55 +283,92 @@ footer {
 .foot {
     margin-top: 150px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 2rem 1rem;
     background-color: #3A3042;
     color: #FFFFFF;
 }
 
-a {
+footer a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .worm {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    width: 35%;
 }
 
     .worm p {
-        margin: 15% 0 0 5%;
-        font-size: .90rem;
-        max-width: 13rem;
+        margin: 0% 0 0 5%;
+        font-size: 32px;
+        font-weight: 400
     }
 
-.logo {
-    margin: 0px 0px 19px 0px;
+.subscribe-Bar {
+    margin: 15% 0 0 5%;
 }
 
-.links h3,
-.explor h3,
-.announ h3,
+#site-subscribe {
+    padding: 0.5rem 1rem;
+    font-size: 14pt;
+    width: 12rem;
+    border: 2px solid #FFFFFF;
+    background-color: #3A3042;
+    border-radius: 4rem;
+    color: #EAEAEA;
+}
+
+.subscribe-Bar button {
+    background-color: #3A3042;
+    border: 2px solid #FFFFFF;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0rem 0rem 1rem;
+    color: #fff;
+    font-size: 14pt;
+}
+
+.Explore {
+    width: 30%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1, .column2, .column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Explore h3,
 .contact h3 {
     font-size: 1.7rem;
     margin-bottom: 1rem;
+    display: block;
 }
 
-.links a,
-.explor a {
-    display: grid;
+.links a, .Explore a {
     font-size: 1rem;
     width: fit-content;
-    margin-bottom: 0.5rem;
+    margin: 1rem 1rem 0 0;
     color: #EAEAEA;
 }
 
-   
-
-.contact p {
-    font-size: 1rem;
-    margin: 01rem 0;
-    color: #EAEAEA;
+.contact {
+    display: flex;
+    flex-direction: column;
 }
+
+    .contact p {
+        font-size: 1rem;
+        margin: 01rem 0;
+        color: #EAEAEA;
+    }
 
 .social-media {
     display: flex;
@@ -337,7 +377,6 @@ a {
 
     .social-media img {
         margin-top: 15%;
-        width: 1.5rem;
     }
 
 .rights {
@@ -351,7 +390,7 @@ a {
         text-decoration: underline;
     }
 
-@media(max-width:780px) {
+@media(max-width:900px) {
 
 
 
@@ -365,22 +404,36 @@ a {
     .links,
     .contact,
     .explor {
-        margin: 1rem 0rem;
+        margin: 2rem 0rem;
     }
 
     .worm {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
 
-        .worm h3,
-        .links h3,
-        .explor h3 {
-            text-align: start;
-        }
+    .Explore {
+        display: none;
+    }
 
-    .contact h3 {
+    .subscribe-Bar input[type=email] {
+        width: 100%;
+    }
+
+    .subscribe-Bar button {
+        margin: 1rem 0 0 0;
+    }
+
+    .subscribe-Bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0 0 0;
+    }
+
+    .contact {
         text-align: center;
     }
 }

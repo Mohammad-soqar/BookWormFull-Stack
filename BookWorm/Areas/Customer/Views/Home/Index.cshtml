@@ -1,4 +1,6 @@
-﻿
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +14,8 @@
     <link rel="stylesheet" href="~/css/homepage.css" asp-append-version="true" />
     <title>BookWorm</title>
 </head>
+
+
 
 <section class="Welcome-Section">
     <img class="book1" src="~/Photos/book.png" height="500px" alt="">
@@ -34,58 +38,60 @@
 
 </section>
 
+
+
 <section class="bestsellers">
     <div class="bestsellers-text">
         <h2>Bestsellers:</h2>
-        <a href="allbookspage.html">View All -></a>
+        <a href="allbookspage.html">Check All -></a>
     </div>
     <div class="second">
         <div class="Best-Books">
-            <a href=""><img class="bestbooks" src="~/Photos/will.png" alt="" height="350px"></a>
+            <a href="BookDetails.html"><img class="bestbooks" src="~/Photos/will.png" alt="" height="350px"></a>
             <h2 class="bookname">WILL</h2>
             <h3 class="author">Will smith</h3>
-            <h3 class="price1"> 29.50$ <img class="vect" src="~/Photos/Vector.png" alt=""></h3>
+            <h3 class="price1"> 29.50$ <img class="vect" src="~/Photos/save-orange.png" alt=""></h3>
         </div>
 
         <div class="Best-Books">
             <a href=""><img class="bestbooks" src="~/Photos/a-little-life-book.png" alt="" height="350px"></a>
             <h2 class="bookname">WILL</h2>
             <h3 class="author">Will smith</h3>
-            <h3 class="price2"> 29.50$ <a><img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+            <h3 class="price2"> 29.50$ <a><img class="vect" src="~/Photos/save-orange.png" alt=""> </a> </h3>
         </div>
 
         <div class="Best-Books">
             <a href=""><img class="bestbooks" src="~/Photos/how-to-not-die-alone-book.png" alt="" height="350px"></a>
             <h2 class="bookname">WILL</h2>
             <h3 class="author">Will smith</h3>
-            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/save-orange.png" alt=""> </a> </h3>
         </div>
 
         <div class="Best-Books">
-            <a href=""><img class="bestbooks" src="img/The-sub.png" alt="" height="350px"></a>
+            <a href=""><img class="bestbooks" src="~/Photos/The-sub.png" alt="" height="350px"></a>
             <h2 class="bookname">WILL</h2>
             <h3 class="author">Will smith</h3>
-            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/save-orange.png" alt=""> </a> </h3>
         </div>
 
         <div class="Best-Books">
-            <a href=""><img class="bestbooks" src="img/The-sub.png" alt="" height="350px"></a>
+            <a href=""><img class="bestbooks" src="~/Photos/The-sub.png" alt="" height="350px"></a>
             <h2 class="bookname">WILL</h2>
             <h3 class="author">Will smith</h3>
-            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/save-orange.png" alt=""> </a> </h3>
         </div>
         <div class="Best-Books">
             <a href=""><img class="bestbooks" src="~/Photos/how-to-not-die-alone-book.png" alt="" height="350px"></a>
             <h2 class="bookname">WILL</h2>
             <h3 class="author">Will smith</h3>
-            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/save-orange.png" alt=""> </a> </h3>
         </div>
 
         <div class="Best-Books">
             <a href=""><img class="bestbooks" src="~/Photos/how-to-not-die-alone-book.png" alt="" height="350px"></a>
             <h2 class="bookname">WILL</h2>
             <h3 class="author">Will smith</h3>
-            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/Vector.png" alt=""> </a> </h3>
+            <h3 class="price3"> 29.50$ <a href="#"> <img class="vect" src="~/Photos/save-orange.png" alt=""> </a> </h3>
         </div>
     </div>
 
@@ -98,13 +104,14 @@
         <div class="Categories-links left-side">
             <h3>Fiction</h3>
             <div class="Categories-Anchors orange">
-                <a href="\BookWorm\Areas\Admin\Areas\AdminPage.cshtml" class="grid-item">Adventure</a>
+                <a href="#" class="grid-item">Adventure</a>
                 <a href="#" class="grid-item">Classic</a>
                 <a href="#" class="grid-item">Crime</a>
                 <a href="#" class="grid-item">Horror</a>
                 <a href="#" class="grid-item">Romance</a>
                 <a href="#" class="grid-item">Fantasy</a>
             </div>
+
         </div>
         <img src="~/Photos/fictionbook.png" alt="" height="250px">
     </div>
@@ -123,4 +130,162 @@
         </div>
         <img src="~/Photos/nonfictionbook.png" alt="" height="250px">
     </div>
+
+
 </section>
+
+<section class="Genre-Section">
+    <div class="Genre-text">
+        <h2>Action:</h2>
+        <a href="allbookspage.html">Check All -></a>
+    </div>
+    <div class="carousel-Section">
+        <button class="carousel-control prev"><img draggable="false" src="~/Photos/arrow2.png" alt=""></button>
+        <div class="carousel-container">
+
+            <div class="carousel">
+
+                <div class="carousel-item">
+                    <a href="BookDetails.html">
+                        <img class="book-Cover" src="~/Photos/Books/41hYQIILU3L._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>Spare</h3>
+                                <p class="authorinfo">Prince Harry</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/Vector.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="book-Cover" src="~/Photos/Books/41bK7Jt8k+L._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>12 Rules For Life</h3>
+                                <p class="authorinfo">Jordan</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/Vector.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="book-Cover" src="~/Photos/Books/41clGmWQP6L._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>I'm Glad My Mom Died</h3>
+                                <p class="authorinfo">Jennette</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/Vector.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="book-Cover" src="~/Photos/Books/61ideL3gloL._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>It Ends With Us</h3>
+                                <p class="authorinfo">Colleen Hoover</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/Vector.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="book-Cover" src="~/Photos/Books/41OjnXiiB1L._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>Product 2</h3>
+                                <p class="authorinfo">Author name</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/save-orange.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="book-Cover" src="~/Photos/Books/511WjJ8gjwL._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>Product 2</h3>
+                                <p class="authorinfo">Author name</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/save-orange.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="book-Cover" src="~/Photos/Books/513Y5o-DYtL._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>Product 2</h3>
+                                <p class="authorinfo">Author name</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/save-orange.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="book-Cover" src="~/Photos/Books/51c4H3VBciL._SL320_.jpg" alt="Image 2">
+                        <div class="info">
+                            <div class="info-left">
+                                <h3>Product 2</h3>
+                                <p class="authorinfo">Author name</p>
+                                <p class="orange">$24.99</p>
+
+                            </div>
+                            <div class="info-right">
+                                <button><img class="vect" src="~/Photos/save-orange.png" alt=""></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+        <button class="carousel-control next"><img draggable="false" src="~/Photos/arrow.png" alt=""></button>
+
+    </div>
+</section>
+
