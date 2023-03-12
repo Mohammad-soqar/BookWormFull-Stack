@@ -1,0 +1,236 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="icon" href="~/Photos/logo.png">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/EBooks.css" asp-append-version="true" />
+    <title>BookWorm</title>
+</head>
+
+<section class="all-content">
+
+
+    <section class="filter">
+        <h3 class="FilterHead"> Filter</h3>
+
+        <!-- ----------Genres Dropdown Menu---------- -->
+
+        <div class="genres">
+            <label for="genrestouch"><span class="genresHead">Genres</span></label>
+            <input type="checkbox" id="genrestouch">
+
+            <ul class="genresslide">
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+            </ul>
+        </div>
+
+        <!-- ----------Genres Dropdown Menu---------- -->
+        <!-- ----------Author Checkbox---------- -->
+
+        <div class="author-filter">
+            <h3>Author</h3>
+            <form>
+                <input type="text" placeholder="Search">
+            </form>
+
+
+            <div class="author-checkbox">
+                <label><input id="AuthorInput" type="checkbox" name="checkbox1">Checkbox 1</label>
+                <label><input type="checkbox" name="checkbox2">Checkbox 2</label>
+                <label><input type="checkbox" name="checkbox3">Checkbox 3</label>
+                <label><input type="checkbox" name="checkbox4">Checkbox 4</label>
+                <label><input type="checkbox" name="checkbox5">Checkbox 5</label>
+                <label><input type="checkbox" name="checkbox6">Checkbox 6</label>
+                <label><input type="checkbox" name="checkbox7">Checkbox 7</label>
+                <label><input type="checkbox" name="checkbox8">Checkbox 8</label>
+            </div>
+        </div>
+
+        <!------------Author Checkbox---------- -->
+        <!-- ----------Format Dropdown Menu------------>
+        <div class="format">
+            <label for="formattouch"><span class="formatHead">Format</span></label>
+            <input type="checkbox" id="formattouch">
+
+            <ul class="formatslide">
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+            </ul>
+        </div>
+
+        <!------------ format Dropdown menu------------>
+        <!------------Language Checkbox---------- -->
+        <div class="language-filter">
+            <h3>Language</h3>
+            <form>
+                <input type="text" placeholder="Search..">
+            </form>
+            <div class="language-checkbox">
+                <label><input type="checkbox" name="checkbox1">English</label>
+                <label><input type="checkbox" name="checkbox2">Arabic</label>
+                <label><input type="checkbox" name="checkbox3">French</label>
+                <label><input type="checkbox" name="checkbox4">Spanish</label>
+                <label><input type="checkbox" name="checkbox5">Italian</label>
+            </div>
+        </div>
+        <!-- ----------Language Checkbox------------>
+        <!-- ----------Rating ------------>
+        <div class="ratingBox">
+            <h3>Rating</h3>
+            <ul class="rate-area">
+                <input type="radio" id="5-star" name="rating" value="5" />
+                <label for="5-star" title="Amazing">
+                    5
+                    stars
+                </label>
+                <input type="radio" id="4-star" name="rating" value="4" />
+                <label for="4-star" title="Good">
+                    4
+                    stars
+                </label>
+                <input type="radio" id="3-star" name="rating" value="3" />
+                <label for="3-star" title="Average">
+                    3
+                    stars
+                </label>
+                <input type="radio" id="2-star" name="rating" value="2" />
+                <label for="2-star" title="Not Good">
+                    2
+                    stars
+                </label>
+                <input type="radio" id="1-star" name="rating" value="1" />
+                <label for="1-star" title="Bad">
+                    1
+                    star
+                </label>
+            </ul>
+        </div>
+        <!-- ---------- Rating ---------- -->
+        <!-- ---------- switch---------- -->
+        <div class="free-Switch">
+            <h3>free</h3>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+
+
+    </section>
+
+    <section class="allBooks">
+        <div class="booksSearch">
+            <h3>All books</h3>
+            <form class="search-form">
+                <input type="text" placeholder="Search...">
+                <button type="submit">search</button>
+            </form>
+
+        </div>
+        <div class="All-book">
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+            <div class="Books">
+                <a href=""><img class="book" src="~/Photos/The-sub.png" alt="" height="300px"></a>
+                <h2 class="bookname">WILL</h2>
+                <h3 class="author">Will smith</h3>
+                <h3 class="price">
+                    29.50$ <a href="#">
+                        <img class="vect" src="img\save-orange.png" alt="sas"
+                             style="width: 15px;">
+                    </a>
+                </h3>
+            </div>
+        </div>
+    </section>
+</section>
