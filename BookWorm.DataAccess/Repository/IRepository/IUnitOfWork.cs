@@ -8,6 +8,11 @@ namespace BookWorm.DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork
     {
+        IBookRepository Book { get; }
+        IGenreRepository Genre { get; }
+        IAuthorRepository Author { get; }
+
+
         void Save();
     }
 }

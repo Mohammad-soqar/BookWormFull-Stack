@@ -1,0 +1,536 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.all-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/*----------filter----------*/
+.filter {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.FilterHead {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*----------Genres Dropdown Menu----------*/
+
+.genres {
+    width: 100%;
+    background: #EEEEEE;
+    margin: 40px auto;
+    border-radius: 27px;
+}
+
+.genresHead {
+    padding: 30px;
+    background: #EEEEEE;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    border-radius: 27px;
+}
+
+    .genresHead::after {
+        float: right;
+        right: 10%;
+        content: "\221F";
+        transform: rotate(-45deg);
+    }
+
+.genresslide {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+}
+
+    .genresslide li {
+        padding: 30px;
+    }
+
+#genrestouch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+}
+
+    #genrestouch:checked + .genresslide {
+        height: 300px;
+    }
+
+/*----------Genres Dropdown menu----------*/
+
+
+/*----------Author Checkbox----------*/
+.author-filter {
+    display: grid;
+    background-color: #EEEEEE;
+    border-radius: 27px;
+    width: 100%;
+}
+
+    .author-filter h3 {
+        padding: 32px 0px 28px 30px;
+        font-weight: 600;
+    }
+
+    .author-filter form {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0% 0;
+    }
+
+    .author-filter input[type="text"] {
+        width: 70%;
+        padding: 10px;
+        background-color: #EEEEEE;
+        border: 1.45px solid #423330;
+        border-radius: 27px;
+        font-size: 16px;
+    }
+
+.author-checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1% 0 10% 10%;
+}
+
+.author-filter label {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10% 0 0 10%;
+}
+
+
+
+/*----------Author Checkbox----------*/
+
+/*----------format Dropdown Menu----------*/
+
+.format {
+    width: 100%;
+    background: #EEEEEE;
+    margin: 40px auto;
+    border-radius: 27px;
+}
+
+.formatHead {
+    padding: 30px;
+    background: #EEEEEE;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    border-radius: 27px;
+}
+
+    .formatHead::after {
+        float: right;
+        right: 10%;
+        content: "\221F";
+        transform: rotate(-45deg);
+    }
+
+.formatslide {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+}
+
+    .formatslide li {
+        padding: 30px;
+    }
+
+#formattouch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+}
+
+    #formattouch:checked + .formatslide {
+        height: 300px;
+    }
+
+/*----------format Dropdown menu----------*/
+
+
+/* ----------language Checkbox----------*/
+.language-filter {
+    display: grid;
+    background-color: #EEEEEE;
+    border-radius: 27px;
+    width: 100%;
+}
+
+    .language-filter h3 {
+        padding: 32px 0px 28px 30px;
+        font-weight: 600;
+    }
+
+    .language-filter form {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0% 0;
+    }
+
+    .language-filter input[type="text"] {
+        width: 70%;
+        padding: 10px;
+        border: 1.45px solid #3A3042;
+        border-radius: 27px;
+        font-size: 16px;
+        background-color: #EEEEEE;
+    }
+
+.language-checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1% 0 10% 10%;
+}
+
+.language-filter label {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10% 0 0 10%;
+}
+/*----------language Checkbox ---------- */
+
+
+/*----------Style checked boxes for language Checkbox and Author Checkbox----------*/
+
+input[type=checkbox] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    outline: none;
+    content: none;
+}
+
+    input[type=checkbox]:before {
+        font-family: 'Montserrat', sans-serif;
+        content: "\2714";
+        font-size: 15px;
+        color: transparent !important;
+        background: #EEEEEE;
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 7px;
+    }
+
+    input[type=checkbox]:checked:before {
+        color: black !important;
+    }
+
+
+/*----------Style checked boxes for language Checkbox and Author Checkbox----------*/
+
+
+
+
+
+/* ---------- rating ---------- */
+.ratingBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    border-radius: 27px;
+    margin: 5% 0;
+    padding: 20px 0px;
+}
+
+    .ratingBox h3 {
+        padding: 0px 0px 0px 30px;
+        font-weight: 600;
+        margin: 0px 0px 15px 0px;
+    }
+
+.rate-area {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    float: left;
+    border-style: none;
+}
+
+    .rate-area:not(:checked) > input {
+        position: absolute;
+        clip: rect(0,0,0,0);
+    }
+
+    .rate-area:not(:checked) > label {
+        float: right;
+        width: 1em;
+        padding: 0 .1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 2rem;
+        line-height: 1.2;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+
+        .rate-area:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .rate-area > input:checked ~ label {
+        color: gold;
+        text-shadow: 1px 1px #c60;
+        font-size: 2rem !important;
+    }
+
+    .rate-area:not(:checked) > label:hover, .rate-area:not(:checked) > label:hover ~ label {
+        color: gold;
+    }
+
+    .rate-area > input:checked + label:hover, .rate-area > input:checked + label:hover ~ label, .rate-area > input:checked ~ label:hover, .rate-area > input:checked ~ label:hover ~ label, .rate-area > label:hover ~ input:checked ~ label {
+        color: gold;
+        text-shadow: 1px 1px goldenrod;
+    }
+
+    .rate-area > label:active {
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+
+/* ---------- rating ----------  */
+
+/*---------- switch---------- */
+.free-Switch {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EEEEEE;
+    border-radius: 27px;
+    padding: 6% 0;
+    font-size: larger;
+    font-weight: 600;
+    align-items: center;
+}
+
+    .free-Switch h3 {
+        margin: 0 50px 0 0px;
+    }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    /* Hide default HTML checkbox */
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #BEBEBE;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: #FF6A4B;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+/*---------- switch---------- */
+
+/*----------  all books ----------  */
+.allBooks {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 2%;
+}
+
+/*---------- booksSearch---------- */
+.booksSearch {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 5% 0;
+}
+
+    .booksSearch h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0 0 0 4%;
+    }
+
+.search-form {
+    margin: 0 5% 0 0;
+}
+
+    .search-form input[type="text"] {
+        padding: 10px;
+        border: 1.45px solid #3A3042;
+        border-radius: 27px;
+        font-size: 16px;
+    }
+
+    .search-form button[type="submit"] {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 27px;
+        background-color: #FF6A4B;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+/*---------- booksSearch---------- */
+
+/*---------- books---------- */
+.All-book {
+    display: grid;
+    justify-items: center;
+    grid-gap: 8rem;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+}
+
+.Books {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0% 0% 0%;
+    padding: 1% 0% 0% 0%;
+    width: fit-content;
+}
+
+.book {
+    box-shadow: 10px 0px 10px rgba(95, 93, 93, 0.307);
+    padding-right: 6px;
+    border-radius: 11.8902px 20.4372px 20.4372px 8.20012px;
+}
+
+.bookname {
+    margin: 5% 0;
+    font-weight: 800;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+    color: #FF6A4B;
+}
+
+/*---------- books---------- */
+
+@media(max-width: 980px) {
+    .All-book {
+        display: grid;
+        justify-items: center;
+        grid-gap: 8rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 750px) {
+    .All-book {
+        display: grid;
+        justify-items: center;
+        grid-gap: 5rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .booksSearch {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .search-form {
+        display: flex;
+        align-items: center;
+        margin: 7% 0;
+    }
+
+        .search-form input[type="text"] {
+            margin: 5% 0;
+        }
+
+    .all-content {
+        width: 100%;
+    }
+
+    @media(max-width: 600px) {
+        .All-book {
+            display: grid;
+            justify-items: center;
+            grid-gap: 5rem;
+            grid-template-columns: 1fr;
+        }
+    }
+}

@@ -15,10 +15,13 @@
         <a href="stylesheet.html"><img class="logo" src="~/Photos/logo.png" width="75px" alt=""></a>
         <ul class="nav-ul">
             <div class="baskets">
-            <li class="nav-li"><a href="allbookspage.html">Ebook</a></li>
+            <li class="nav-li"><a href="@Url.Action("EBooks", "Home", new { area = "Customer" })">Ebook</a></li>
             <li class="nav-li"><a href="#">Categories</a></li>
             <li class="nav-li"><a href="#">About</a></li>
             <li class="nav-li"><a href="#">Contact</a></li>
+            <li class="nav-li">
+                <a href="@Url.Action("Index", "Book", new { area = "Admin" })">Admin Page</a></li>
+
             </div>
         </ul>
         <div class="baskets icons">

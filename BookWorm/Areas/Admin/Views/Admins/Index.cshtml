@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/Adminpage.css" asp-append-version="true">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="servicesAdminPage">
+        <a class="service" asp-area="Admin" asp-controller="Book" asp-action="Index">
+            <div class="align-cen">
+                <img alt="" src="~/Photos/create-edit book symbol.png" height="130px" draggable="false">
+                <h3>Create / Edit Book</h3>
+            </div>
+        </a>
+
+        <a class="service" asp-area="Admin" asp-controller="Genre" asp-action="Index">
+            <div class="align-cen">
+                <img alt="" src="~/Photos/Add user symbol.png" height="130px" draggable="false">
+                <h3>Add Author</h3>
+            </div>
+        </a>
+        <a class="service " asp-area="Admin" asp-controller="Genre" asp-action="Index">
+            <div class="align-cen">
+                <img alt="" src="~/Photos/creat category symbol.png" height="130px" draggable="false">
+                <h3>Create Genre</h3>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
