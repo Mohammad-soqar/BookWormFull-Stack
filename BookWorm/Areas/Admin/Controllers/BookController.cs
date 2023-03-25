@@ -9,9 +9,7 @@ using System.Data;
 
 namespace BookWorm.Areas.Admin.Controllers
 {
-   
-        [Area("Admin")]
-
+    [Area("Admin")]
     public class BookController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -41,7 +39,7 @@ namespace BookWorm.Areas.Admin.Controllers
                 }),
                 AuthorList = (IEnumerable<System.Web.Mvc.SelectListItem>)_unitOfWork.Author.GetAll().Select(i => new SelectListItem
                 {
-                    Text = i.first_name,
+                    Text = i.Name,
                     Value = i.Id.ToString()
                 })
 
@@ -144,15 +142,10 @@ namespace BookWorm.Areas.Admin.Controllers
 
             _unitOfWork.Book.Remove(obj);
             _unitOfWork.Save();
-            return Json(new { success = true, message = "Book deleted successfuly" });
+            return Json(new { success = true, message = "Book Deleted Successfully" });
             return RedirectToAction("Index");
-
             return View(Id);
-
         }
-
-
         #endregion
-
     }
 }

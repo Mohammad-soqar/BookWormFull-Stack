@@ -1,0 +1,104 @@
+﻿.autherDetails {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.authorBranch {
+    background-color: #EEEEEE;
+    border-radius: 27px;
+    background-image: url();
+    margin: -2% 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 0 10% 4% 10%;
+}
+
+    .authorBranch img {
+        margin: -3.5rem 0 0 0;
+    }
+
+    .authorBranch h3 {
+        font-size: 2rem;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .authorBranch h2 {
+        font-size: 3rem;
+        margin: 1rem 0 .5rem 0;
+        font-weight: 600;
+    }
+
+    .authorBranch h4 {
+        margin: 0 0 1rem 0;
+    }
+
+    .authorBranch p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+.otherbooks {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 5rem 0 3rem 0;
+}
+/*----------author books---------- */
+.author-book {
+    display: grid;
+    justify-items: center;
+    border-radius: 27px;
+    grid-gap: 0rem;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    width: 70%;
+    margin: 0 0 0 15%;
+}
+
+.Books {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0% 20% 0%;
+    padding: 1% 0% 0% 0%;
+    width: fit-content;
+}
+
+.book {
+    box-shadow: 10px 0px 10px rgba(95, 93, 93, 0.307);
+    padding-right: 6px;
+    border-radius: 11.8902px 20.4372px 20.4372px 8.20012px;
+}
+
+.bookname {
+    margin: 5% 0;
+    font-weight: 800;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+    color: #FF6A4B;
+}
+
+@media(max-width: 980px) {
+    .author-book {
+        display: grid;
+        justify-items: center;
+        grid-gap: 8rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 750px) {
+    .author-book {
+        display: grid;
+        justify-items: center;
+        grid-gap: 8rem;
+        grid-template-columns: 1fr;
+    }
+}
+/*---------- author books---------- */

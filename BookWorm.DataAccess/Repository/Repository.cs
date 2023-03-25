@@ -17,7 +17,8 @@ namespace BookWorm.DataAccess.Repository
         internal DbSet<T> dbSet;
         public Repository(ApplicationDbContext db)
         {
-            db = _db;
+            _db = db;
+            this.dbSet = _db.Set<T>();
         }
 
         public void Add(T entity)

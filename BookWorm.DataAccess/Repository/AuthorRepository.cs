@@ -24,12 +24,12 @@ namespace BookWorm.DataAccess.Repository
             var objFromDb = _db.Authors.FirstOrDefault(u => u.Id == obj.Id);
             if (objFromDb != null)
             {
-                objFromDb.first_name = obj.first_name;
-                objFromDb.last_name = obj.last_name;
+                objFromDb.Name = obj.Name;
+                objFromDb.Description = obj.Description;
                
-                if (objFromDb.imageUrl != null)
+                if (objFromDb.ImageUrl != null)
                 {
-                    objFromDb.imageUrl = obj.imageUrl;
+                    objFromDb.ImageUrl = obj.ImageUrl;
                 }
 
             }

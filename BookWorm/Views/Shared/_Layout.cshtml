@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootswatchTheme.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
     <link rel="icon" href="~/Photos/logo.png">
-
-   
 </head>
 <body>
 
@@ -20,7 +20,7 @@
             <li class="nav-li"><a href="#">About</a></li>
             <li class="nav-li"><a href="#">Contact</a></li>
             <li class="nav-li">
-                <a href="@Url.Action("Index", "Book", new { area = "Admin" })">Admin Page</a></li>
+            <a href="@Url.Action("Index", "Book", new { area = "Admin" })">Admin Page</a></li>
 
             </div>
         </ul>
@@ -48,16 +48,12 @@
                     <a href="homepage.html"><img class="basketimg" src="~/Photos/Save.png" alt="" width="30px"></a>
                 </div>
             </ul>
-
-
         </div>
     </nav>
-
   
-        <main role="main" >
+    <main role="main" >
             @RenderBody()
-        </main>
-
+    </main>
 
     <footer>
         <section class="foot">
@@ -102,31 +98,28 @@
                 <p>+90 232 222 222 22</p>
                 <div class="social-media">
                     <a href="https://www.instagram.com/" target="_blank" class="taga">
-                        <img width="27px"
-                             src="img\instagram.png" alt="">
+                        <img width="27px" src="img\instagram.png" alt="">
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="taga">
-                        <img width="27px"
-                             src="img\twitter.png" alt="">
+                    <a href="https://www.twitter.com/" target="_blank" class="taga">
+                        <img width="27px" src="img\twitter.png" alt="">
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="taga">
-                        <img width="27px"
-                             src="img\facebook.png" alt="">
+                    <a href="https://www.facebook.com/" target="_blank" class="taga">
+                        <img width="27px" src="img\facebook.png" alt="">
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="taga">
-                        <img width="27px"
-                             src="img\youtube.png" alt="">
+                    <a href="https://www.youtube.com/" target="_blank" class="taga">
+                        <img width="27px" src="img\youtube.png" alt="">
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="taga">
-                        <img width="27px"
-                             src="img\linked-in.png" alt="">
+                    <a href="https://www.Linkedin.com/" target="_blank" class="taga">
+                        <img width="27px" src="img\linked-in.png" alt="">
                     </a>
                 </div>
             </div>
         </section>
         <P class="rights">© All Rights Reserved. BookWorm, <a href="">Privacy Policy</a> </P>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
